@@ -1,6 +1,7 @@
 # Shop-Floor MES Integration & Fault Isolation Lab
 
 [한국어 프로젝트 요약 PDF](./Manufacturing_IT_MES_Fault_Isolation_KR.pdf)
+
 [English Project Summary PDF](./Manufacturing_IT_MES_Fault_Isolation_EN.pdf)
 
 A hands-on Manufacturing IT lab that connects a shop-floor terminal to OpenMES.
