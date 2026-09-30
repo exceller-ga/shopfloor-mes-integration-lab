@@ -4,6 +4,14 @@
 
 [English Project Summary PDF](./Manufacturing_IT_MES_Fault_Isolation_EN.pdf)
 
+## Lab Architecture
+
+![Shop-Floor MES Integration Architecture](./shop_floor_mes_integration_architecture.png)
+
+**Connection initiation:** OPC UA Gateway → OPC UA Simulator  
+**Machine data flow:** OPC UA Simulator → OPC UA Gateway → OpenMES  
+**Shop-floor workflow:** OpenMES ↔ Shop-Floor App → Mock Printer
+
 A hands-on Manufacturing IT lab that connects a shop-floor terminal to OpenMES.
 
 The terminal retrieves a live work order and machine status from OpenMES, accepts serial-number scans and PASS/FAIL results, records production data to CSV, and sends a simulated Zebra-style label over TCP port 9100.
