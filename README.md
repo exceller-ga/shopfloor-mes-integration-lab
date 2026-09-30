@@ -36,34 +36,6 @@ The lab also demonstrates machine communication fault detection using an OPC UA 
 
 ---
 
-## Lab Architecture
-
-```text
-EMS VM
-OPC UA Simulator :4840
-        |
-        v
-OpenMES OPC UA Gateway
-        |
-        v
-OpenMES
-  |  Work Order API
-  |  Machine Monitor API
-  |  Runtime / Heartbeat API
-        |
-        v
-AWSQUICK-LAB
-Shop-Floor Terminal (app.py)
-        |
-        +--> Serial Scan
-        +--> PASS / FAIL
-        +--> production_log.csv
-        +--> label.zpl
-        |
-        v
-Mock Printer :9100
-```
-
 ---
 
 ## Quick Start
